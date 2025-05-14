@@ -8,7 +8,7 @@ import type { PayloadAction } from "@reduxjs/toolkit"
 
 // Updated API call function
 const submitJobApplicationAPI = async (formData: FormData) => {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000"}/api/apply`, {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "https://talenttreerecruits-where-top-talent.onrender.com"}/api/apply`, {
     method: "POST",
     body: formData, // automatically handles multipart/form-data
   })
