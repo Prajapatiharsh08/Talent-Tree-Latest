@@ -9,7 +9,7 @@ import type { PayloadAction } from "@reduxjs/toolkit"
 
 // API call function
 const submitContactFormAPI = async (formData: ContactFormData) => {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "https://talenttreerecruits-where-top-talent.onrender.com"}/api/contact`, {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000"}/api/contact`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
