@@ -303,7 +303,7 @@ interface JobStoreState {
 // ]
 const initialJobs: Job[] = [
   {
-    id: "Sales Manager",
+    id: "Sales-Manager",
     title: "Sales Manager",
     company: "ABC Corporation Pvt Ltd",
     location: "Memnagar, Ahmedabad",
@@ -338,7 +338,7 @@ const initialJobs: Job[] = [
     similarJobs: ["frontend-developer", "backend-engineer", "fullstack-developer"],
   },
   {
-    id: "Maintenance Manager",
+    id: "Maintenance-Manager",
     title: "Maintenance Manager",
     company: "XYZ Manufacturing Ltd",
     location: "Sanand Plant, Sanand",
@@ -375,7 +375,7 @@ const initialJobs: Job[] = [
     similarJobs: ["marketing-manager", "digital-marketing-specialist", "brand-strategist"],
   },
   {
-    id: "Production Executive",
+    id: "Production-Executive",
     title: "Production Executive",
     company: "XYZ Manufacturing Ltd",
     location: "Sanand",
@@ -407,7 +407,7 @@ const initialJobs: Job[] = [
     similarJobs: ["financial-manager", "investment-analyst", "corporate-finance-associate"],
   },
   {
-    id: "Quality Manager",
+    id: "Quality-Manager",
     title: "Quality Manager",
     company: "DEF Industries",
     location: "Sanand",
@@ -444,7 +444,7 @@ const initialJobs: Job[] = [
     similarJobs: ["hr-manager", "talent-acquisition-director", "employee-experience-manager"],
   },
   {
-    id: "QC (Lab Technician)",
+    id: "QC-Lab-Technician",
     title: "QC (Lab Technician)",
     company: "DEF Industries",
     location: "Sanand",
