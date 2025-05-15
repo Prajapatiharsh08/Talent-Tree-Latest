@@ -48,11 +48,14 @@ export default function Footer () {
           {/* Company Info */}
           <div>
             <div className='mb-4 flex items-center'>
-              <Logo />
+              <h1 className='text-2xl font-bold text-white'>
+                Talent Tree Recruits
+              </h1>
             </div>
             <p className='text-blue-200 mb-4'>
-              Connecting top talent with leading companies since 2010. Your
-              trusted partner in professional recruitment.
+              Founded in June 2024, Talent Tree Recruits brings over a decade of
+              staffing expertise, connecting businesses with top pre-screened
+              talent across industries.
             </p>
             <div className='flex space-x-3'>
               <a
@@ -264,7 +267,7 @@ export default function Footer () {
         {/* Bottom Footer */}
         <div className='border-t border-blue-700/50 py-6 flex flex-col md:flex-row justify-between items-center text-blue-200 text-sm'>
           <p>
-            &copy; {currentYear} TalentTree Professional Recruitment. All rights
+            &copy; {currentYear} TalentTreeRecruits. All rights
             reserved.
           </p>
           <div className='flex space-x-6 mt-4 md:mt-0'>
