@@ -164,7 +164,7 @@ export default function JobsPage() {
                               {job.type}
                             </span>
                             <h3 className="text-xl font-bold text-blue-900">{job.title}</h3>
-                            <p className="text-gray-600">{job.company}</p>
+                            {/* <p className="text-gray-600">{job.company}</p> */}
                           </div>
                           <div className="bg-blue-50 p-3 rounded-lg">
                             <Briefcase className="h-6 w-6 text-blue-600" />

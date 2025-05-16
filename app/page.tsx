@@ -50,11 +50,11 @@ export default function Home() {
           <FadeInSection>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-blue-50 p-8 rounded-xl text-center">
-                <AnimatedCounter value={500} suffix="+" className="text-4xl font-bold text-blue-700 mb-2" />
+                <AnimatedCounter value={50} suffix="+" className="text-4xl font-bold text-blue-700 mb-2" />
                 <p className="text-blue-900">Successful Placements</p>
               </div>
               <div className="bg-blue-50 p-8 rounded-xl text-center">
-                <AnimatedCounter value={150} suffix="+" className="text-4xl font-bold text-blue-700 mb-2" />
+                <AnimatedCounter value={15} suffix="+" className="text-4xl font-bold text-blue-700 mb-2" />
                 <p className="text-blue-900">Corporate Partners</p>
               </div>
               <div className="bg-blue-50 p-8 rounded-xl text-center">
@@ -275,7 +275,7 @@ export default function Home() {
                 <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Briefcase className="h-10 w-10 text-white" />
                 </div>
-                <h3 className="text-3xl font-bold text-blue-700 mb-2">2,500+</h3>
+                <h3 className="text-3xl font-bold text-blue-700 mb-2">50+</h3>
                 <p className="text-xl font-semibold text-blue-900 mb-3">Placements</p>
                 <p className="text-gray-600">Successful placements across various industries and job roles</p>
               </div>

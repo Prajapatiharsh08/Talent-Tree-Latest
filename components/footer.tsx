@@ -226,8 +226,7 @@ export default function Footer () {
               <li className='flex items-start'>
                 <MapPin className='h-5 w-5 mr-3 text-blue-300 mt-0.5 flex-shrink-0' />
                 <span className='text-blue-100'>
-                  Ananta square, Vasant Vihar 2, Nava Naroda, Ahmedabad, Gujarat
-                  382330
+                  609, Centre Point, Vandematram road, Gota, Ahmedabad.
                 </span>
               </li>
               <li className='flex items-center'>

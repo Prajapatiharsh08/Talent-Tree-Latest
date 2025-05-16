@@ -250,7 +250,7 @@ export default function AboutPage () {
       {/* Stats Section */}
       <section className='py-16 bg-blue-50'>
         <div className='container mx-auto px-4'>
-          <div className='grid grid-cols-1 md:grid-cols-4 gap-8 text-center'>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
             <FadeInSection delay={0.1}>
               <div className='bg-white p-8 rounded-xl shadow-sm'>
                 <div className='text-4xl font-bold text-blue-700 mb-2'>12+</div>
@@ -261,7 +261,7 @@ export default function AboutPage () {
             <FadeInSection delay={0.2}>
               <div className='bg-white p-8 rounded-xl shadow-sm'>
                 <div className='text-4xl font-bold text-blue-700 mb-2'>
-                  5,000+
+                  50+
                 </div>
                 <p className='text-gray-700'>Successful Placements</p>
               </div>
@@ -270,18 +270,18 @@ export default function AboutPage () {
             <FadeInSection delay={0.3}>
               <div className='bg-white p-8 rounded-xl shadow-sm'>
                 <div className='text-4xl font-bold text-blue-700 mb-2'>
-                  200+
+                  15+
                 </div>
                 <p className='text-gray-700'>Corporate Partners</p>
               </div>
             </FadeInSection>
 
-            <FadeInSection delay={0.4}>
+            {/* <FadeInSection delay={0.4}>
               <div className='bg-white p-8 rounded-xl shadow-sm'>
                 <div className='text-4xl font-bold text-blue-700 mb-2'>8</div>
                 <p className='text-gray-700'>Global Offices</p>
               </div>
-            </FadeInSection>
+            </FadeInSection> */}
           </div>
         </div>
       </section>

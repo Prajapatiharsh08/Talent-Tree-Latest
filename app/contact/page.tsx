@@ -112,7 +112,7 @@ export default function ContactPage () {
                       <h3 className='text-lg font-semibold text-blue-900 mb-1'>
                         Our Office
                       </h3>
-                      <p className='text-gray-600'>Ahmedabad, Gujarat, India</p>
+                      <p className='text-gray-600'>609, Centre Point, Vandematram road, Gota, Ahmedabad.</p>
                     </div>
                   </div>
 
@@ -361,7 +361,7 @@ export default function ContactPage () {
           <FadeInSection delay={0.2}>
             <div className='w-full h-[400px] rounded-xl overflow-hidden shadow-md border border-gray-200'>
               <iframe
-                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.2991840631!2d72.41493225790053!3d23.02015808674564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1746872091397!5m2!1sen!2sin'
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1082.5982570700628!2d72.54852002000186!3d23.101786073838667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e831ebb771c1b%3A0x7d9559b5d6b900bd!2sCentre%20Point%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1747381019596!5m2!1sen!2sin'
                 width='100%'
                 height='100%'
                 style={{ border: 0 }}
