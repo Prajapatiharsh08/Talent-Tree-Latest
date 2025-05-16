@@ -165,84 +165,44 @@ export default function AboutPage () {
             </div>
           </FadeInSection>
 
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            <FadeInSection delay={0.1}>
-              <div className='bg-white rounded-xl shadow-sm overflow-hidden'>
-                <div className='h-64 relative'>
-                  <Image
-                    src='image4.png'
-                    alt='Ananya Desai'
-                    fill
-                    className='object-cover'
-                  />
-                </div>
-                <div className='p-6'>
-                  <h3 className='text-xl font-bold text-blue-900 mb-1'>
-                    Ananya Desai
-                  </h3>
-                  <p className='text-blue-600 mb-3'>
-                    Head of Talent Acquisition
-                  </p>
-                  <p className='text-gray-600 mb-4'>
-                    Ananya drives our talent strategies with a focus on
-                    innovation and inclusion, helping startups scale quickly
-                    with the right people.
-                  </p>
-                </div>
-              </div>
-            </FadeInSection>
+          <div className='flex flex-col md:flex-row items-center bg-white rounded-xl shadow-sm overflow-hidden gap-6 p-6 max-w-6xl mx-auto'>
+            {/* Left: Image */}
+            <div className='w-full md:w-1/3 relative aspect-[4/5] rounded-lg overflow-hidden'>
+              <Image
+                src='abhijeet.png' // Replace with actual image path
+                alt='Abhijeet Mukherjee'
+                fill
+                className='object-cover'
+                priority // optional to load faster
+              />
+            </div>
 
-            <FadeInSection delay={0.2}>
-              <div className='bg-white rounded-xl shadow-sm overflow-hidden'>
-                <div className='h-64 relative'>
-                  <Image
-                    src='image5.png'
-                    alt='Ravi Mehta'
-                    fill
-                    className='object-cover'
-                  />
-                </div>
-                <div className='p-6'>
-                  <h3 className='text-xl font-bold text-blue-900 mb-1'>
-                    Ravi Mehta
-                  </h3>
-                  <p className='text-blue-600 mb-3'>
-                    Head of Client Partnerships
-                  </p>
-                  <p className='text-gray-600 mb-4'>
-                    With a strong background in consulting and client success,
-                    Ravi ensures long-term value through strategic recruitment
-                    solutions.
-                  </p>
-                </div>
-              </div>
-            </FadeInSection>
-
-            <FadeInSection delay={0.3}>
-              <div className='bg-white rounded-xl shadow-sm overflow-hidden'>
-                <div className='h-64 relative'>
-                  <Image
-                    src='image6.png'
-                    alt='Meera Kapoor'
-                    fill
-                    className='object-cover'
-                  />
-                </div>
-                <div className='p-6'>
-                  <h3 className='text-xl font-bold text-blue-900 mb-1'>
-                    Meera Kapoor
-                  </h3>
-                  <p className='text-blue-600 mb-3'>
-                    Senior Recruitment Consultant
-                  </p>
-                  <p className='text-gray-600 mb-4'>
-                    Meera specializes in tech hiring and has helped place
-                    hundreds of engineers and product leaders in high-growth
-                    roles.
-                  </p>
-                </div>
-              </div>
-            </FadeInSection>
+            {/* Right: Content */}
+            <div className='w-full md:w-2/3'>
+              <h3 className='text-3xl font-bold text-blue-900 mb-2'>
+                Abhijeet Mukherjee
+              </h3>
+              <p className='text-blue-600 mb-4 text-lg'>Founder & Director</p>
+              <p className='text-gray-700 mb-4 leading-relaxed'>
+                Abhijeet Mukherjee is a passionate entrepreneur and industry
+                expert with a deep understanding of talent acquisition and
+                strategic workforce planning. With a career spanning over a
+                decade, he has helped numerous organizations scale by placing
+                the right talent at the right time.
+              </p>
+              <p className='text-gray-700 mb-4 leading-relaxed'>
+                As the Founder & Director of this venture, Abhijeet envisions
+                building a bridge between opportunity and talent. He believes in
+                empowering both job seekers and companies with insight-driven,
+                personalized recruitment solutions.
+              </p>
+              <p className='text-gray-700 leading-relaxed'>
+                His leadership is marked by innovation, client-centric
+                strategies, and a strong belief in ethical hiring. Under his
+                guidance, the company continues to grow as a trusted recruitment
+                partner for fast-growing businesses and global brands alike.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -260,18 +220,14 @@ export default function AboutPage () {
 
             <FadeInSection delay={0.2}>
               <div className='bg-white p-8 rounded-xl shadow-sm'>
-                <div className='text-4xl font-bold text-blue-700 mb-2'>
-                  50+
-                </div>
+                <div className='text-4xl font-bold text-blue-700 mb-2'>50+</div>
                 <p className='text-gray-700'>Successful Placements</p>
               </div>
             </FadeInSection>
 
             <FadeInSection delay={0.3}>
               <div className='bg-white p-8 rounded-xl shadow-sm'>
-                <div className='text-4xl font-bold text-blue-700 mb-2'>
-                  15+
-                </div>
+                <div className='text-4xl font-bold text-blue-700 mb-2'>15+</div>
                 <p className='text-gray-700'>Corporate Partners</p>
               </div>
             </FadeInSection>
